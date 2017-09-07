@@ -1,0 +1,353 @@
+/* HEADER */
+
+#title-site{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+}
+
+#title{
+  font-size: 78px;
+  color: white;
+}
+
+#subtitle{
+  font-size: 19px;
+}
+
+#logo{
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+#logo img{
+  width: 145px;
+}
+
+#top{
+  background: url(../img/bg-blockchain-ico.jpg) no-repeat fixed -100px -100px;
+  min-height: 300px;
+}
+
+#panel-circles{
+  padding: 20px 40px;
+  background: url(../img/pattern-green-ico.jpg) top center repeat;
+  margin-top: 190px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  box-shadow: 0 0 1px #124640;
+}
+#first-wrapper,#second-wrapper,#third-wrapper{
+  position: relative;
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#first-circle,#second-circle,#third-circle{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+#first-text,#second-text,#third-text{
+  font-size: 30px;
+  left: 50%;
+  top: 91px;
+  position: absolute;
+  width: 100px;
+  margin-left: -50px;
+  text-align: center;
+  color: white;
+}
+#first-circle-var,#second-circle-var,#third-circle-var{
+  font-size: 47px;
+  font-weight: bold;
+}
+.sub-circle-text{
+  font-size: 15px;
+  margin-top: -9px;
+}
+.plus{
+  display: inline-block;
+  float: left;
+  position: absolute;
+  left: -8px;
+  top: 10px;
+}
+#extra-info{
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+#extra-info h5 {
+    font-size: 17px!important;
+}
+.btn-large{
+  width: 100%;    background: #90ed7d;
+    color: #385156;
+}
+#btn-apply{
+  margin-bottom: 9px;
+  margin-top: 30px;
+  position:relative;
+  overflow: hidden;
+  cursor:pointer;
+}
+#btn-apply span:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/keyboard-right-arrow-button.svg);
+    background-size: contain;
+    position: absolute;
+    top: 9px;
+    left: -30px;
+  -webkit-transition: left 0.3s ease-out;
+  -moz-transition: left 0.3s ease-out;
+  -o-transition: left 0.3s ease-out;
+  transition: left 0.3s ease-out;
+}
+#btn-apply:hover span:before {
+  left: 20px;
+-webkit-transition: left 0.3s ease-out;
+-moz-transition: left 0.3s ease-out;
+-o-transition: left 0.3s ease-out;
+transition: left 0.3s ease-out;
+}
+#left-shadow {
+  background: url(../img/shadow-ico-intro-left.png) top left no-repeat;
+  width: 40px;
+  height: 250px;
+  position: absolute;
+  left: -40px;
+  top: -18px;
+}
+#right-shadow{
+  background: url(../img/shadow-ico-intro-right.png) top left no-repeat;
+  width: 40px;
+  height: 250px;
+  position: absolute;
+  right: -40px;
+  top: -18px;
+}
+#panel-circles.appear-anim{
+  margin-top: 190px;
+  margin-bottom: 0px;
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+}
+#panel-circles.appear-anim.appeared{
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.section-title{
+    background: #FDFDFD;
+    font-size: 20px;
+    color: #4c7073;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #bbb;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: -20px;
+}
+/* FIRST SECTION */
+#top-rated{
+  min-height: 250px;
+  box-shadow: 0 0 6px #CCC;
+  margin-top: 300px;
+  margin-bottom: -190px;
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out;
+overflow: hidden;
+}
+
+#top-rated.appeared{
+
+  margin-top: 40px;
+  margin-bottom: 70px;
+
+}
+
+#toprated-title{
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
+  color: #4e6f76;
+}
+.inner-wrapper{
+  width: 100%;
+position: relative;
+
+}
+#disclamer-overlay{
+    position: absolute;
+    z-index: 500;
+    background: rgba(48, 60, 63, 0.90);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#disclamer-overlay.hideMe{
+  top: 600px;
+  opacity: 0;
+}
+#disclamer-box{
+  width: 80%;
+  margin-left: 10%;
+  background: #dbb066;
+  padding: 20px 40px;
+  display: block;
+  position: relative;
+  top: 110px;
+}
+#disclamer-box h4, #disclamer-box p, #disclamer-box a{
+  color: #333333;
+}
+#disclamer-box p{
+  max-width: 60%;
+      display: inline-block;
+      margin-right: 5%;
+}
+#disclamer-box a{
+  color: white;
+  display: block;
+    float: right;
+    text-align: center;
+    width: 24%;
+    background: #c3923c;
+    padding: 10px 20px;
+}
+#disclamer-box a:hover,#disclamer-box a:focus,#disclamer-box a:active{
+  text-decoration: none;
+}
+/* SECOND SECTION */
+#team{
+  background: url(../img/pattern-green-ico.jpg) top center repeat;
+}
+
+.team-members{
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+.team-member{
+  border-radius: 100px;
+  width: 180px;
+  height: 180px;
+  background: url(img/demo-pic.png) center center no-repeat;
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+.team-member .member-wrapper{
+  position: relative;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background: #34474c;
+  opacity: 0;
+  top: 210px;
+  left: 50%;
+  margin-left: -100px;
+-webkit-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-o-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+}
+.team-member:hover .member-wrapper{
+  top:0px;
+  opacity: 0.8;
+-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+transition: all 0.2s ease-out;
+}
+.team-member:nth-child(1){
+  background-image: url(../img/andrea-dobrinca-ico-planet.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.team-member:nth-child(2){
+  background-image: url(../img/Sergio-garcia-ico-planet.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.team-member:nth-child(3){
+  display: none;
+  background-image: ;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.team-member:nth-child(4){
+  display:none;
+  background: url(../img/demo-pic.png) center center no-repeat;
+}
+.team-member:nth-child(5){
+  display:none;
+  background: url(../img/demo-pic.png) center center no-repeat;
+}
+.team-member:nth-child(6){
+  display:none;
+  background: url(../img/demo-pic.png) center center no-repeat;
+}
+.team-member:nth-child(7){
+  display:none;
+  background: url(../img/demo-pic.png) center center no-repeat;
+}
+.member-name{
+  display: inline-block;
+  color: white;
+  font-size: 27px;
+  top: 49px;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  padding: 0px 25px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.member-pro{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    top: 50px;
+    text-align: center;
+    padding: 0px 30px;
+    width: 100%;
+    position: relative;
+}
+/* FOOTER */
+#footer{
+  background: url(../img/bg-blockchain-ico.jpg) no-repeat fixed -100px -100px;
+  min-height: 70px;
+}
+#email-contact{
+  background: #FFF;
+  opacity: 0.9;
+  padding: 6px 20px;
+  color: #4e6f76;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 17px;
+}

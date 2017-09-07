@@ -1,0 +1,157 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+  <script src="js/jquery.appear.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+<header>
+
+</header>
+<section class="container-fluid" id="top">
+  <div class="container" >
+    <div class="row">
+      <div class="col-md-12">
+        <a id="logo" href="/" title="Hello ICO: analysis and rating">
+          <img src="img/planet-ico-analysis-rating.png" alt="Hello ICO: analysis and rating" title="Hello ICO: analysis and rating"/>
+        </a>
+        <div id="title-site">
+          <h1 id="title">ICO Planet</h1>
+          <h3 id="subtitle">Initial Coin Offering analysis and ratings</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 appear-anim" id="panel-circles">
+        <div id="left-shadow"></div>
+        <div id="right-shadow"></div>
+        <div class="row">
+        <div class="col-md-4">
+        <!-- HTML Chart -->
+        <div id="first-wrapper">
+          <div id="first-circle"></div>
+          <div id="first-text"><span class="plus">+</span><span id="first-circle-var">0</span><div class="sub-circle-text">ICO analysed</div></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+      <!-- HTML Chart -->
+      <div id="second-wrapper">
+        <div id="second-circle"></div>
+        <div id="second-text"><span class="plus">+</span><span id="second-circle-var">0</span><div class="sub-circle-text">Team members</div></div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <!-- HTML Chart -->
+      <div id="third-wrapper">
+        <div id="third-circle"></div>
+        <div id="third-text"><span class="plus">+</span><span id="third-circle-var">0</span><div class="sub-circle-text">Data collected</div></div>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-md-4">
+
+    </div>
+    <div class="col-md-4" id="extra-info">
+        <h5>First hand info from the best ICO's</h5>
+        <h5>Private spreadsheet</h5>
+        <h5>Automatic data feed</h5>
+    </div>
+    <div class="col-md-4">
+      <a href="" id="btn-apply" class="btn btn-large"><span>Apply to join us</span></a>
+        <p style='color:#EEE;font-size:12px'>We are currently full, but you can apply to the waiting list.</p>
+
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid" id="ratings">
+
+    <div class="container" >
+      <div class="row">
+      <h2 class="section-title">
+        <span>September's top rated ICO</span>
+      </h2>
+        <div class="col-md-12" style="overflow: hidden;">
+
+            <div class="inner-wrapper">
+
+                <div id="disclamer-overlay">
+                  <div id="disclamer-box">
+                  <h4>Disclamer</h4>
+                  <p>We are not your financial advisor. This is not financial advice.<br/>
+          Do your own researches and take your own decissions.</p>
+                  <a id="closeDisclamer" title="Accept ICO rating not finnancial advice" href="/">Accept and close</a>
+                  </div>
+                </div>
+        <div class="row appear-anim" id="top-rated">
+          <div class="col-md-4" style="background: url(toprated/logo.png) no-repeat center center;background-position: cover; ">
+          </div>
+          <div class="col-md-8">
+              <!--h3 id="toprated-title">Kyber Network</h3-->
+            <div class="col-md-12">
+              <div id="toprating-chart"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container-fluid" id="team">
+
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-12">
+          <h2 class="section-title">
+            <span>ICO Planet analysts</span>
+          </h2>
+
+        <div class="team-members clearfix">
+          <div class="team-member">
+            <div class="member-wrapper">
+                <div class="member-name">Andrea Dobrinca</div>
+                <div class="member-pro">ICO analyst</div>
+                <div class="member-linkedin"><a href="/"></a></div>
+            </div>
+          </div>
+          <div class="team-member">
+            <div class="member-wrapper">
+                <div class="member-name">Sergio Garcia</div>
+                <div class="member-pro">Developer, ICO&nbsp;analyst</div>
+                <div class="member-linkedin"><a href="/"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
+<footer class="container-fluid" id="footer">
+    <div class="container" >
+      <div class="row">
+        <div class="col-md-6">
+          <!-- div id="email-contact"><span>contact[ç]helloico.com</span></div -->
+        </div>
+        <div class="col-md-6">
+
+        </div>
+      </div>
+    </div>
+</footer>
+</body>
+</html>
