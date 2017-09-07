@@ -1,5 +1,9 @@
 jQuery(document).ready(function(e){
 
+  jQuery('html span span').each(function(){
+    var text = jQuery(this).text();
+    jQuery(this).text(text.replace('≠ç≠', '@'));
+  });
   jQuery('#closeDisclamer').on('click',function(){
     jQuery("#disclamer-overlay").addClass('hideMe');
     return false;
