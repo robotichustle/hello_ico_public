@@ -291,8 +291,7 @@ transition: all 0.2s ease-out;
   background-size: cover;
 }
 .team-member:nth-child(3){
-  display: none;
-  background-image: ;
+  background-image: url(../img/Italo-Farve-ICOPlanet.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
