@@ -242,7 +242,7 @@ jQuery(document).ready(function(){
       }
     });
 
-
+/*
     Highcharts.chart('toprating-chart', {
         chart: {
             type: 'bar'
@@ -287,5 +287,5 @@ jQuery(document).ready(function(){
            data: [10, 9, 10, 10, 10],
             colors: ['#90ed7d','#90ed7d','#90ed7d', '#90ed7d', '#90ed7d', '#90ed7d', '#de5454']
         }]
-    });
+    }); */
 });

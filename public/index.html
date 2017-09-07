@@ -12,8 +12,11 @@
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/highcharts-more.js"></script>
   <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.1/dist/sheetrock.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
   <script src="js/jquery.appear.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/spreadsheet.js"></script>
 </head>
 <body>
 <header>
@@ -100,16 +103,36 @@
                   <a id="closeDisclamer" title="Accept ICO rating not finnancial advice" href="/">Accept and close</a>
                   </div>
                 </div>
-        <div class="row appear-anim" id="top-rated">
-          <div class="col-md-4" style="background: url(toprated/logo.png) no-repeat center center;background-position: cover; ">
-          </div>
-          <div class="col-md-8">
-              <!--h3 id="toprated-title">Kyber Network</h3-->
-            <div class="col-md-12">
-              <div id="toprating-chart"></div>
+
+
+
+      <div class=" appear-anim" id="top-rated-ico">
+
+          <script id="top-rated-template" type="text/x-handlebars-template">
+          <div class="row top-rated">
+            <div class="col-md-3 tr-left">
+                  <h3 id="toprated-title">{{cells.Name}}</h3>
             </div>
-          </div>
+            <div class="col-md-7 tr-mid">
+              <div class="row">
+              <div class="col-md-7 tr-mid-left">
+                <div><span class="label">Market Cap: </span><span class="value">{{cells.Cap}}</span></div>
+                <div><span class="label">Distributed: </span><span class="value">{{cells.Distributed}}</span></div>
+                <div><span class="label">ICO price: </span><span class="value">{{cells.Price}}</span></div>
+              </div>
+              <div class="col-md-5 tr-mid-right">
+                <div><span class="label">Team: </span><span class="value">{{cells.Team}}</span></div>
+                <div><span class="label">Prototype: </span><span class="value">{{cells.Prototype}}</span></div>
+                <div><span class="label">Idea: </span><span class="value">{{cells.Idea}}</span></div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-2 tr-right">
+              <h4 class="rating-value">{{cells.Rating}}</h4>
+            </div>
         </div>
+        </script>
+
         </div>
       </div>
     </div>
