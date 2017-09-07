@@ -4,12 +4,12 @@
   position: absolute;
   top: 20px;
   right: 20px;
-  color: white;
+  color: #12595b;
 }
 
 #title{
   font-size: 78px;
-  color: white;
+  color: #12595b;
 }
 
 #subtitle{
@@ -349,4 +349,10 @@ transition: all 0.2s ease-out;
   display: inline-block;
   border-radius: 30px;
   margin-top: 17px;
+}
+#header-band{
+  background: white;
+  position: relative;
+  top: 35px;
+  padding-bottom: 40px;
 }
