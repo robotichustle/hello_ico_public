@@ -230,14 +230,14 @@ jQuery(document).ready(function(){
     },
     function callback() {
       var s = document.getElementById("third-circle-var");
-      for (i = 0; i <= 300; i++) {
+      for (i = 0; i <= 20; i++) {
 
         // create a closure to preserve the value of "i"
         (function(i){
 
           window.setTimeout(function(){
             s.innerHTML = i.toString();
-          }, i * 3);
+          }, i * 50);
         }(i));
       }
     });
