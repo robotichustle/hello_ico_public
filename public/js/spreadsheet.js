@@ -1,4 +1,4 @@
-var spreadsheet = "https://docs.google.com/spreadsheets/d/14kgeUhNwSsyNNdTu4mZHGNRB5p6xb47qfUP329O-lPo/edit?gid=0";
+var spreadsheet = "https://docs.google.com/spreadsheets/d/1Ki_lj8YkndX71ryLXiyBPJAzqHrmUzGBE_xDAc5288o/edit?gid=0";
 
 jQuery(document).ready(function(){
     // Compile the Handlebars template for HR leaders.
@@ -7,8 +7,8 @@ jQuery(document).ready(function(){
   // Load top five HR leaders.
   jQuery('#top-rated-ico').sheetrock({
     url: spreadsheet,
-  /*  query: "select A,C,D,I order by I desc",*/
-    fetchSize: 5,
+    query: "select A,B,C,D,E,F,G,H,I,J,K order by B desc",
+    fetchSize: 20,
     rowTemplate: HRTemplate
   });
 });
