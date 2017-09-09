@@ -110,6 +110,9 @@
   -o-transition: left 0.3s ease-out;
   transition: left 0.3s ease-out;
 }
+#btn-apply:hover{
+  color: #216f11;
+}
 #btn-apply:hover span:before {
   left: 20px;
 -webkit-transition: left 0.3s ease-out;
