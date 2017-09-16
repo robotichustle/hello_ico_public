@@ -179,9 +179,9 @@ overflow: hidden;
 }
 
 #toprated-title{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 6px;
+  margin-left: 0px;
   color: #4e6f76;
 }
 .inner-wrapper{
@@ -218,7 +218,8 @@ position: relative;
   color: #41615a;
   background: #e8e8e8;
   border-radius: 40px;
-  padding: 9px 4px;
+  padding: 12px 11px;
+  font-size: 0.8rem;
 }
 .label{
   color: #848484;
