@@ -345,8 +345,12 @@ transition: all 0.2s ease-out;
   background-size: cover;
 }
 .team-member:nth-child(4){
-  display:none;
-  background: url(../img/demo-pic.png) center center no-repeat;
+  background-image: url(../img/matt-ico-planet.jpg);
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .team-member:nth-child(5){
   display:none;
