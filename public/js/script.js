@@ -162,14 +162,14 @@ jQuery(document).ready(function(){
   },
   function callback() {
     var s = document.getElementById("second-circle-var");
-    for (i = 0; i <= 121; i++) {
+    for (i = 0; i <= 250; i++) {
 
       // create a closure to preserve the value of "i"
       (function(i){
 
         window.setTimeout(function(){
           s.innerHTML = i.toString();
-        }, i * 8);
+        }, i * 4);
       }(i));
     }
   });
