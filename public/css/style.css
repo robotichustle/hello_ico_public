@@ -320,6 +320,7 @@ transition: all 0.3s ease-out;
 -o-transition: all 0.2s ease-out;
 transition: all 0.2s ease-out;
 }
+/*
 .team-member:nth-child(1){
   background-image: url(../img/andrea-dobrinca-ico-planet.jpg);
   background-position: center center;
@@ -327,8 +328,8 @@ transition: all 0.2s ease-out;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-.team-member:nth-child(2){
+}*/
+.team-member:nth-child(1){
   background-image: url(../img/Sergio-garcia-ico-planet.jpg);
   background-position: center center;
   -webkit-background-size: cover;
@@ -336,16 +337,8 @@ transition: all 0.2s ease-out;
   -o-background-size: cover;
   background-size: cover;
 }
-.team-member:nth-child(3){
+.team-member:nth-child(2){
   background-image: url(../img/Italo-Farve-ICOPlanet.jpg);
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.team-member:nth-child(4){
-  background-image: url(../img/matt-ico-planet.jpg);
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
